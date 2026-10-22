@@ -95,7 +95,7 @@ server_address = ('', 8000)
 httpd = HTTPServer(server_address, MyHandler)
 print("My webserver is running...")
 httpd.serve_forever()
-
+```
 ## OUTPUT:
 ![alt text](<Screenshot 2026-10-22 091501.png>)
 ![alt text](<Screenshot 2026-10-22 092214.png>)
